@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane alignment="TOP_CENTER" prefHeight="650.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="450.0">
+  <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="45" minWidth="45" prefWidth="45" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="45" minHeight="45.0" prefHeight="45.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="txtF11" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF21" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF31" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF41" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF51" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF61" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF71" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF81" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF91" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF22" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF32" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF42" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF52" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF12" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF62" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF72" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF82" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF92" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45" prefWidth="45" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8" GridPane.rowIndex="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF13" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF14" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF23" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF24" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF33" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 3 2;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF34" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF43" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 3;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF44" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF53" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF54" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF63" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 3 2;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF64" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF73" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 3;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF74" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF83" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF84" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF93" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="8" GridPane.rowIndex="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF94" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8" GridPane.rowIndex="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF15" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF25" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF35" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF45" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF55" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF65" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF75" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF85" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF95" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8" GridPane.rowIndex="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF16" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF26" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF36" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 3 2;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF46" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 3;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF56" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF66" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 3 2;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF76" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 3;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF86" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF96" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 3 2;" GridPane.columnIndex="8" GridPane.rowIndex="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF17" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF27" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF37" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF47" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF57" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF67" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF77" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF87" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF97" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 3 2 2 2;" GridPane.columnIndex="8" GridPane.rowIndex="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF18" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF28" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF38" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF48" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF58" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF68" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF78" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF88" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="7" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF98" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8" GridPane.rowIndex="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF19" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF29" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="1" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF39" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="2" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF49" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="3" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF59" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="4" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF69" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 3 2 2;" GridPane.columnIndex="5" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF79" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2 2 2 3;" GridPane.columnIndex="6" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF89" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="7" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <TextField fx:id="txtF99" alignment="CENTER" disable="true" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" style="-fx-border-color: black; -fx-border-width: 2;" GridPane.columnIndex="8" GridPane.rowIndex="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</GridPane>
+   <Pane prefHeight="650.0" prefWidth="450.0">
+      <children>
+         <Button fx:id="btnNextSolution" layoutX="531.0" layoutY="568.0" mnemonicParsing="false" onAction="#selectNextSolution" text="🡆" />
+         <Button fx:id="btnPrevSolution" layoutX="490.0" layoutY="568.0" mnemonicParsing="false" onAction="#selectPrevSolution" text="🡄" />
+         <Button fx:id="btnPrevSudoku" layoutX="480.0" layoutY="609.0" mnemonicParsing="false" onAction="#selectPrevSudoku" text="🡄🡄" />
+         <Button fx:id="btnNextSudoku" layoutX="531.0" layoutY="609.0" mnemonicParsing="false" onAction="#selectNextSudoku" text="🡆🡆" />
+         <Label fx:id="labelFSBT" layoutX="14.0" layoutY="499.0" text="Label" />
+         <Label fx:id="labelFSDur" layoutX="14.0" layoutY="431.0" text="Label" />
+         <Label fx:id="labelFSvisited" layoutX="14.0" layoutY="464.0" text="Label" />
+         <Label fx:id="labelDur" layoutX="14.0" layoutY="531.0" text="Label" />
+         <Label fx:id="labelVisited" layoutX="14.0" layoutY="563.0" text="Label" />
+         <Label fx:id="labelBT" layoutX="14.0" layoutY="591.0" text="Label" />
+         <Label fx:id="labelFoundSolutions" layoutX="14.0" layoutY="621.0" text="Label" />
+         <Label fx:id="labelId" layoutX="14.0" layoutY="14.0" text="Label" />
+         <Label fx:id="labelCurr" layoutX="589.0" layoutY="613.0" text="Label" />
+         <Label fx:id="labelCurrSol" layoutX="589.0" layoutY="572.0" text="Label" />
+      </children>
+   </Pane>
+</StackPane>
